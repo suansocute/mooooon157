@@ -58,7 +58,7 @@ def index1(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 
 def sayhello (request):
-  return HttpResponse("hello django!/")
+  return HttpResponse("hello 王映婷!/")
 
 def hello2 (request,username):
   return HttpResponse("hello "+ username)
