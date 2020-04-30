@@ -70,7 +70,7 @@ def hello3 (request,username):
 
 def index(request):
                 now=datetime.now()
-                username="daphne lo" 
+                username="王映婷" 
                 return render(request,"hello4.html",locals())
 
 def listone(request): 
