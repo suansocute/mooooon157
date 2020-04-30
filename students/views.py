@@ -29,7 +29,7 @@ line_bot_api = LineBotApi('Rlf0lUEqOQodKBwGp3DqaT7Opa83/aIEkFyHez0urSALa2e9SAdn6
 # 必須放上自己的Channel Secret
 handler = WebhookHandler('0e306e90c9ea73b347d04fc0c49e4edf')
 
-line_bot_api.push_message('Ub8e3cf75739079f25a50f82b2cbd4c63', TextSendMessage(text='你可以開始了'))
+line_bot_api.push_message('U0b779b8568076cb6b6d93ced0fa4d1e0', TextSendMessage(text='你可以開始了'))
 
 @csrf_exempt
 @require_POST
