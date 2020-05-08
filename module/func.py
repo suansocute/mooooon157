@@ -97,7 +97,7 @@ def sendButton(event):  #按鈕樣版
         message = TemplateSendMessage(
             alt_text='按鈕樣板',
             template=ButtonsTemplate(
-                thumbnail_image_url='https://i.imgur.com/4QfKuz1.png',  #顯示的圖片
+                thumbnail_image_url='https://girlstyle-tw.imgix.net/wp-content/uploads/2020/04/macuuuaua.jpg?auto=format&w=830',  #顯示的圖片
                 title='飲料',  #主標題
                 text='清涼冰飲：',  #副標題
                 actions=[
